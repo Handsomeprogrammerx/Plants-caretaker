@@ -1,5 +1,5 @@
 # Plants-caretaker
-This system integrates an NPK sensor, a humidity and temperature sensor (DHT), a soil moisture sensor, water pumps, and a light-dependent resistor (LDR) to monitor vital parameters for plant health. The pumps automatically dispense water or liquid nutrients when sensor readings reach predefined thresholds.
+This system integrates an NPK sensor, a humidity and temperature sensor (DHT), a soil moisture sensor, water pumps, a light-dependent resistor (LDR), and arduino UNO R3 to monitor vital parameters for plant health. The pumps automatically dispense water or liquid nutrients when sensor readings reach predefined thresholds.
 # Highlight skills
 
 -Logic debugging: Integrated all modules to working properly together with a slick code.
