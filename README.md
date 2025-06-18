@@ -4,7 +4,7 @@ This system integrates an NPK sensor, a humidity and temperature sensor (DHT), a
 
 -Logic debugging: Integrated all modules to working properly together with a slick code.
 
--C++ programming: Wrote a custom program through Arduinio IDE
+-C++ programming: Wrote a custom program through Arduinio IDE that is capable of automatic fertillizing and watering
 
 -Hardware tinkering: Selected and purchased all components by my own. Assembled and wired by meself
 
