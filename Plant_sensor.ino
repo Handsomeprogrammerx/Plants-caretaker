@@ -68,12 +68,6 @@ void loop()
   delay(2000);
   float temp = dht.readTemperature();
   float humid = dht.readHumidity();
-  //Check if sensor fail to read 
-  //if (isnan(humid) || isnan(temp))
-  //{
-    //Serial.println("DHT failed to read");
-    //return 22;
-  //}
   int light = map(analogRead(LDRApin), 0, 1023, 100, 0);
   int moist = map(analogRead(MSpin), 0, 1023, 100, 0);
   u8g2.firstPage();
@@ -143,7 +137,7 @@ byte npk_read(const byte *request, byte lenght)
     }
   }
   else Serial.println("Unable to masure the nutrients");
-  Serial.println(data[4]);
+  Serial.println(data[4]); // 4th byte contain the nutrient value
   return data[4];
 }
 
